@@ -1,8 +1,47 @@
+// primary
+$LightRed: hsl(0, 100%, 67%);
+$OrangeyYellow: hsl(39, 100%, 56%);
+$GreenTeal: hsl(166, 100%, 37%);
+$CobaltBlue: hsl(234, 85%, 45%);
+// background
+$LightSlateBlue: hsl(252, 100%, 67%);
+$LightRoyalBlue: hsl(241, 81%, 54%);
+// circle
+$VioletBlue: hsla(256, 72%, 46%, 1);
+$PersianBlue: hsla(241, 72%, 46%, 0);
+// neutral
+$White: hsl(0, 0%, 100%);
+$PaleBlue: hsl(221, 100%, 96%);
+$LightLavender: hsl(241, 100%, 89%);
+$DarkGrayBlue: hsl(224, 30%, 27%);
 
+
+$BRadius: 20px;
 
 body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: $White;
+}
+
+main {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: $White;
+    border-radius: $BRadius;
+    box-shadow: 10px 10px 50px $PaleBlue;
+}
+
+div.userScore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient($LightSlateBlue,$LightRoyalBlue);
+    border-radius: $BRadius;
+    width: 50%;
 }
