@@ -104,7 +104,7 @@ h1 {
 
 .description {
     font: {
-        size: 20px;
+        size: 18px;
         weight: 500;
     };
     color: $LightLavender;
@@ -141,7 +141,6 @@ h2 {
 }
 
 .Reaction {
-    display: flex;
     @include scoretype;
     background-color: $LightRed;
     color: hsl(0, 100%, 67%);
@@ -165,6 +164,14 @@ h2 {
     color: hsl(234, 85%, 45%);
 }
 
+.decriptionP {
+    color: $LightLavender;
+}
+
+.sumOutcome {
+    color: black;
+}
+
 .aline {
     display: flex;
     gap: 15px;
@@ -179,4 +186,97 @@ button {
     height: 10%;
     border-radius: 30px;
     background-color: $DarkGrayBlue;
+    border: none;
+}
+
+button:hover {
+    background-image: linear-gradient($LightSlateBlue,$LightRoyalBlue);
+    border: none;
+}
+
+.attribution {
+    margin-top: 50px;
+}
+
+// width size bigger then 1440px
+@media screen and (max-width: 1440px) {
+    main {
+        width: 720px;
+        height: 540px;
+    }
+}
+
+// width size smaller then 375px
+@media screen and (max-width: 375px) {
+    body {
+        display: block;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    main {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    div.userScore {
+        width: 100%;
+        height: 45%;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .titleHeader {
+        font: {
+            size: 18px;
+            weight: 700;
+        };
+        color: $LightLavender;
+    }
+
+    div.summary {
+        width: 100%;
+        height: 55%;
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+        color: $White;
+    }
+
+    .description {
+        font: {
+            size: 15px;
+            weight: 500;
+        };
+        color: $LightLavender;
+        text-align: center;
+        width: 70%;
+        height: 10%;
+    }
+
+    .ratingContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 40%;
+        background-image: linear-gradient($VioletBlue,$PersianBlue);
+        border-radius: 100%;
+        font-weight: 500;
+    }
+
+    button {
+        font-size: 20px;
+        color: $White;
+        font-weight: 500;
+        width: 80%;
+        height: 15%;
+        border-radius: 30px;
+        background-color: $DarkGrayBlue;
+        border: none;
+    }
+
 }
