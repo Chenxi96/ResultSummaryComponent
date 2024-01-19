@@ -29,20 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./assets/images/sparkling-youtiao-463c44.netlify.app_.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Chenxi96/ResultSummaryComponent)
+- Live Site URL: (https://sparkling-youtiao-463c44.netlify.app/)
 
 ## My process
 
@@ -57,9 +49,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While started this challenge I had trouble thinking about how to create and append elements into the HTML and with some trial and error
+I figured out how I can do it. I had to create new HTML elements with document.createElement and add a class name and append it into scoreContainer div then styled it with scss.
 
-To see how you can add code snippets, see below:
+see below:
 
 ```html
       <div id="scoreContainer" class="scoreContainer">
