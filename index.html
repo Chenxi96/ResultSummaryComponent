@@ -12,50 +12,21 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-
   <main>
     <div class="userScore">
       <p class="titleHeader">Your Result</p>
       <div class="ratingContainer">
-        <p class="scoreFontSize">76</p>
+        <p id="avgTotal" class="scoreFontSize"></p>
         <p class="scoreOfText">of 100</p>
       </div>
       <h1>Great</h1>
       <p class="description">
-        You scored higher than 65% of the people who have taken these tests.
+        You scored higher than <span id="avgScore"></span>% of the people who have taken these tests.
       </p>
     </div>
     <div class="summary">
       <h2>Summary</h2>
-      <div class="scoreContainer">
-        <div class="reaction">
-          <div id="aline" class="aline">
-            <img src="/assets/images/icon-reaction.svg" alt="icon-reaction" width="25" height="25">
-            <p>Reaction</p>
-          </div>
-          <p>80 / 100</p>
-        </div>
-        <div class="memory">
-          <div class="aline">
-            <img src="/assets/images/icon-memory.svg" alt="icon-memory">
-            <p>Memory</p>
-          </div>
-          <p>92 / 100</p>
-        </div>
-        <div class="verbal">
-          <div class="aline">
-            <img src="/assets/images/icon-verbal.svg" alt="icon-verbal">
-            <p>Verbal</p>
-          </div>
-          <p>61 / 100</p>
-        </div>
-        <div class="visual">
-          <div class="aline">
-            <img src="/assets/images/icon-visual.svg" alt="icon-visual">
-            <p>Visual</p>
-          </div>
-          <p>72 / 100</p>
-        </div>
+      <div id="scoreContainer" class="scoreContainer">
       </div>
       <button>Continue</button>
     </div>

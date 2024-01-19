@@ -140,26 +140,26 @@ h2 {
     width: 80%;
 }
 
-.reaction {
+.Reaction {
     display: flex;
     @include scoretype;
     background-color: $LightRed;
     color: hsl(0, 100%, 67%);
 }
 
-.memory {
+.Memory {
     @include scoretype;
     background-color: $OrangeyYellow;
     color: hsl(39, 100%, 56%)
 }
 
-.verbal {
+.Verbal {
     @include scoretype;
     background-color: $GreenTeal;
     color: hsl(166, 100%, 37%)
 }
 
-.visual {
+.Visual {
     @include scoretype;
     background-color: $CobaltBlue;
     color: hsl(234, 85%, 45%);

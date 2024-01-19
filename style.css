@@ -99,7 +99,7 @@ h2 {
   width: 80%;
 }
 
-.reaction {
+.Reaction {
   display: flex;
   display: flex;
   justify-content: space-between;
@@ -114,7 +114,7 @@ h2 {
   color: hsl(0, 100%, 67%);
 }
 
-.memory {
+.Memory {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,7 +128,7 @@ h2 {
   color: hsl(39, 100%, 56%);
 }
 
-.verbal {
+.Verbal {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,7 +142,7 @@ h2 {
   color: hsl(166, 100%, 37%);
 }
 
-.visual {
+.Visual {
   display: flex;
   justify-content: space-between;
   align-items: center;
