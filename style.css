@@ -178,6 +178,7 @@ button {
   border-radius: 30px;
   background-color: hsl(224, 30%, 27%);
   border: none;
+  cursor: pointer;
 }
 
 button:hover {
